@@ -1,12 +1,14 @@
 ---
-title: DBS101 Flipped Class 1
+Title: DBS101 Flipped Class 1
 categories: [DBS101, Flipped Class1]
 tags: [DBS101]
 ----
 
-# What I learned during flipped class 
 
 ## Database User and Administrator
+
+
+# What I learned during flipped class 
 
 Database users are grouped into various types mainly based on their interaction with the database system, roles and responsibilities.
 
