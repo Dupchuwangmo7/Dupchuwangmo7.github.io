@@ -60,7 +60,7 @@ The three main cardinal relationships are one-to-one, one-to-many and many-to-ma
 
 ![alt text](<../images/Screenshot from 2024-02-28 22-08-05.png>)
 
-## ERD symbols and notations 
+## ERD symbols and notations.
 
 ![alt text](<../images/Screenshot from 2024-02-29 11-31-23.png>)
 
