@@ -54,7 +54,7 @@ With one attribute value
 It defines the numerical attributes relationship between the two entities.
 The three main cardinal relationships are one-to-one, one-to-many and many-to-many.
 
-# During flipped class
+## During flipped class
 During the second flipped class, we formed 6 groups with 4 members and were assigned to illustrate an ERD for a proposed public sector on the chart. For one hour, we discussed and analyzed the entities, relationship, attributes and cardinary for the given public sector. We drew the ERD with all requirements needed in the ERD and we had to present it to the entire class.
 We also had a questions and answers section at the end of the presentation.
 
