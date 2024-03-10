@@ -58,11 +58,11 @@ With one attribute value
 It defines the numerical attributes relationship between the two entities.
 The three main cardinal relationships are one-to-one, one-to-many and many-to-many.
 
-![alt text](<../images/Screenshot from 2024-02-28 22-08-05.png>)
+![alt text](<../images/DBS101-images/Screenshot from 2024-02-28 22-08-05.png>)
 
 ## ERD symbols and notations.
 
-![alt text](<../images/Screenshot from 2024-02-29 11-31-23.png>)
+![alt text](<../images/DBS101-images/Screenshot from 2024-02-29 11-31-23.png>)
 
 
 
@@ -71,8 +71,8 @@ During the second flipped class, we formed 6 groups with 4 members and were assi
 We also had a questions and answers section at the end of the presentation. My group got e-health:patient records for the assignment.
 
 
+![alt text](../images/DBS101-images/photo_6266939425187544246_y.jpg)
 
-![alt text](../images/photo_6266939425187544246_y.jpg)
 
 I personally think flipped class is really helpful for students since we get vivid concepts of lessons that were delivered when we discuss in a group and do the practicals.
 
