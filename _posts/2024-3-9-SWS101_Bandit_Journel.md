@@ -150,12 +150,22 @@ scp is a command that uses SSH to transfer data over the network. The syntax to 
 
 Username : bandit15
 
-Password : fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+Password : jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
 
-
+![alt text](<../images/SWS101-images/Bandit-images/Screenshot from 2024-03-10 23-02-28.png>)
 
 ### Bandit Level 15-16
 
 Username : bandit16
+
+Password : JQttfApK4SeyHwDlI9SXGR50qclOAil1
+
+
+![alt text](<../images/SWS101-images/Bandit-images/Screenshot from 2024-03-10 23-19-09.png>)
+
+![alt text](<../images/SWS101-images/Bandit-images/Screenshot from 2024-03-10 23-20-49.png>)
+
+### Bandit Level 16-17
+Username : bandit17
 
 Password : 
