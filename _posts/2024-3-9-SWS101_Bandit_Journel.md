@@ -16,7 +16,7 @@ Username : bandit1
 
 Password : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 
-### Bandit level 1-2
+### Bandit level 1 - 2
  
  Username : bandit2
 
