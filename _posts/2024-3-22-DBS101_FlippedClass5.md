@@ -34,7 +34,7 @@ Example:
 
 Relation STUDENT in table 1 is not in 1NF because of multi-valued attribute STUD_PHONE. Its decomposition into 1NF has been shown in table 2.
 
-![alt text](image.png)
+![alt text](<../images/DBS101-images/Screenshot from 2024-03-24 20-14-44.png>)
 
 
 ### Second normal form
@@ -49,7 +49,7 @@ KEY POINTS
 
 Example:
 
-![alt text](image-1.png)
+![alt text](<../images/DBS101-images/Screenshot from 2024-03-24 20-38-36.png>)
 
 In the above table, we can see there is partial dependency as
 StudentName and ProjectName should be functionally dependent on part of a candidate key, to be Partial Dependent.t And the StudentName can be determined by StudentID, which makes the relation Partial Dependent.
@@ -57,8 +57,7 @@ StudentName and ProjectName should be functionally dependent on part of a candid
 Therefore, the `<StudentProject>` relation violates the 2NF in Normalization and is considered a bad database design.
 
 To remove Partial Dependency and violation on 2NF, decompose the above tables
-
-![alt text](image-2.png)
+![alt text](<../images/DBS101-images/Screenshot from 2024-03-24 20-44-22.png>)
 
 Now the relation is in second normal form of Database normalization.
 
@@ -74,14 +73,16 @@ It refers to some non-prime attribute other than the candidate key that depends 
 3NF is a curcial stage in database normalization. It deals with transitive dependencies and improves data integrity through effective information organization.
 
 Example:
-![alt text](image-3.png)
+
+![alt text](<../images/DBS101-images/Screenshot from 2024-03-24 20-59-12.png>)
+
 We can conclude that primary key is EMP_ID.
 
 But here, EMP_STATE and EMP_CITY depends on EMP_ZIP and it ultimately depends on EMP_ID. so, non-primary key EMP_ZIP is acting as primary key to EMP_STATE and EMP_CITY. It voilates the rule of third normal form.
 
 That's why we need to move the EMP_CITY and EMP_STATE to the new <EMPLOYEE_ZIP> table, with EMP_ZIP as a Primary key.
 
-![alt text](image-4.png)
+![alt text](<../images/DBS101-images/Screenshot from 2024-03-24 21-08-59.png>)
 
 Now the tables in third normal form.
 
@@ -90,7 +91,7 @@ It is a slightly stronger version of the third normal form. A relation is said t
 
 Example:
 
-![alt text](image-5.png)
+![alt text](<../images/DBS101-images/Screenshot from 2024-03-24 21-19-13.png>)
 
 From the above table we can conclude that;
 
@@ -100,7 +101,7 @@ Candidate key: EMP_ID and EMP_DEPT
 
 The table is not in BCNF beacuse neither EMP_DMPT nor EMP_ID alone are keys. Hence, it voilates the BCNF law. We can decomposite it into three tables to be in BCNF 
 
-![alt text](image-6.png)
+![alt text](<../images/DBS101-images/Screenshot from 2024-03-24 21-27-02.png>)
 
 ### Forth normal form
 It is the level of database normalization where there are no non-trivial multivalued dependencies other than the candidate key. 
