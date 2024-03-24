@@ -20,7 +20,8 @@ Normalizaton consists of series of guidelines that guides while  creating a good
 
 ![alt text](<../images/DBS101-images/Screenshot from 2024-03-24 19-44-07.png>)
 
-sourse: https://www.javatpoint.com/dbms-normalization
+source:
+https://www.javatpoint.com/dbms-normalization
 
 ### First normal form
 If a relation contains a composite or multi-valued attribute, it voilates the first normal forms. A relation is in first normal form if every attribute in that realtion is single-valued attribute. Also attribute domain should not change and each column should named uniquely. In the first normal form, the order in which data is stored does not matter.
