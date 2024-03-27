@@ -74,12 +74,12 @@ Application
 -  key-value database used for storing data temporarily for faster retrieval.
 
 ### 3. Graph Database
-It focus on the relationship between the elements and stores data in the form of nodes in the database. the connection between the nodes are called links or relationships. The key features of graph database are it is easy to identify the relationship between the data by using liks and query's output is real-time results.
+It focus on the relationship between the elements and stores data in the form of nodes in the database. Connection between the nodes are called links or relationships. The key features of graph database are it is easy to identify the relationship between the data by using liks and query's output is real-time results.
 
 ![alt text](<../images/DBS101-images/Screenshot from 2024-03-26 22-32-02.png>)
 
 Advantages
-- has ability to handle relational data, uch as relationships between people, places and things.
+- has ability to handle relational data, such as relationships between people, places and things.
 -  Graphs are a good match for complex relationships between entities.
 - graph databases can be used to model complex data in many domains.
 - Every entity and their relationships in the real world can be represented as a graph.
@@ -118,7 +118,7 @@ Applications
 
 
 ### 5. Time-series Database
-IT is database optimized for time-stamped or time series data. Time series data are simply measurements or events that are tracked, monitored, downsampled, and aggregated over time. It is built specifically for handling metrics and events or measurements that are time-stamped.
+It is database optimized for time-stamped or time series data. Time series data are simply measurements or events that are tracked, monitored, downsampled, and aggregated over time. It is built specifically for handling metrics and events or measurements that are time-stamped.
 
 ![alt text](<../images/DBS101-images/Screenshot from 2024-03-26 23-39-37.png>)
 
@@ -160,4 +160,4 @@ Application
 # What we did during Flipped class
 
 
-During this flipped class, we were assigned to groups of six with four members and had to discuss the given topics. Since the instructions and reading materials were already uploaded the day before the flipped class we all were prepared for the class. After discussing it in the group we had to present it the home group. Flipped class sessions have improved a lot compared to the beginning. Presenting contents to the class is another way of proving ourselves. 
+During this flipped class, we were assigned to groups of six with four members and had to discuss the given topics. Since the instructions and reading materials were already uploaded the day before the flipped class we all were prepared for the class. After discussing it in the expert group we had to present it the home group. Flipped class sessions have improved a lot compared to the beginning. Teaching members of home also aids teaching-learning process
