@@ -25,4 +25,16 @@ We are going to access these machines by connecting with OpenVPN. To do that we 
 
     sudo openvpn file-path
 
-# 1. Broken Access Control
+## 1. Broken Access Control
+
+Broken Access control is a common and critical security vulnerability that arises when access control mechanisms are waek, improperly implemented or not enforced effectively. This allows unauthorized or regular users to gain access to sensitive data, system or functionalities.It also  occurs when an application fails to properly enforce access controls, allowing attackers to bypass authorization and perform tasks as if they were a legitimate user.
+
+
+#### Insecure Direct Object reference
+It is a specific type of Broken Access Control vulnerability. It occurs when an application uses user-supplied input to directly access object without proper authorization checks. This allows attackers to manipulates references and gain unauthorized access to resourse. Impacts of IDOR are Data Breaches and Unauthorized Actions. 
+Data breaches is when attackers can access sensitive data of other users, leading to privacy breaches or identity theft. And unauthorized action is when attacker are able to perform actions they shouldn't be allowed to on someone else's account.
+
+## 2. Crytographic Failures
+
+
+
