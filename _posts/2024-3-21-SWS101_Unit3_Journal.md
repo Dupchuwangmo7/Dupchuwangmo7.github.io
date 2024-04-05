@@ -204,6 +204,8 @@ Prevention
 ## 7. Identification and Authentication Failures
 Identification and Authentication Failures are security weakness that occur when a system or application fails to correctly identify or authenticate a user. This lead to unauthorized access to sensitive information, systems by malicious attackers. It is a critical vulvernabilities highlighted in the OWASP Top web application security risks. Identification and Authentication Failures arise due to weak or reused password, lack of Multi-factor authentication, brute-force attcks and broken authenticatin mechanism. Weak or resued password often makes easier for attackers to crack passwords or use them in credential stuffing attacks and when application does not add extra layer of security by requiring an additional verification factor, attacker can easily hack account due to lack of multi-factor authentication. Attacker can use automated tools to try a larger number of password combinations until they guess the correct one. Broken authentication mechanisms occurs when mechanisms can leave vulnerabilities that attacker can exploit.
 
+![alt text](<../images/SWS101-images/OWASP _Top_10/Screenshot from 2024-04-05 05-03-27.png>)
+
 Consequences of Identification and Authentication Failures:
 - Account takeover: attacker can gain access to unauthorized user account.
 - Privilege Escalation: attackers can escalate user privilege and gain access to more sensitive system or data.
@@ -214,4 +216,22 @@ Prevention:
 - Multi-Factor Authentication: this significantly improves security by adding an extra layer of verification.
 - rate Limiting: Implement rate limiting on login attempts to prevent brute-force attacks.
 - Regular Security Audits: conduct security conduct audits to identify and address weaknesses in authentication mechanisms.
- 
+
+## 8. Software and Data Integrity failures
+Software and Data Integrity failures arise when an application's code or insfrastructure lacks the proper safegurads to prevent unauthorized modifications of data. This can have severe consequences as the attackers can manipulates data to gain unauthorizes access, steal sensitive information or disrupt critical systems. It occur due Insufficient data validation, missing integrity checks, and weak coding singing practices. Insufficient data validation is when a application does not have proper user-supplied data  which allows attacker to inject malicious code or manipulate data to pypass security controls. Software and Data Integrity failures can occur due to unsecure data stroage, sensitive data might be stored in an unencrypted format or without proper access controls, making it vulnerable to unauthorized modification.
+
+![alt text](<../images/SWS101-images/OWASP _Top_10/Screenshot from 2024-04-05 05-47-46.png>)
+
+Consequences:
+- Data breaches
+- system takeover
+- Disrupted operations: manipulated data can lead to disruptions in critical business processes or application.
+- loss of trust: can damage an organization's reputation and lead to loss of customer trust
+
+Prevention:
+- Data validation: Implement robust data validation practices to ensure data inttegrity and prvent malicious code injection.
+- Secure data storage: encrypt sensitive data and provide proper accesss control.
+- Regular security testing: condcut regualr security testing to identify and address vulnerabilities in software and data integrity controls.
+- Strong code signing: Implement this to verify the authencity and integrity of software updates.
+
+
