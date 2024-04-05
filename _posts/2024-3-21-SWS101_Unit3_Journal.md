@@ -29,6 +29,19 @@ We are going to access these machines by connecting with OpenVPN. To do that we 
 
 Broken Access control is a common and critical security vulnerability that arises when access control mechanisms are waek, improperly implemented or not enforced effectively. This allows unauthorized or regular users to gain access to sensitive data, system or functionalities.It also  occurs when an application fails to properly enforce access controls, allowing attackers to bypass authorization and perform tasks as if they were a legitimate user.
 
+Consequences:
+- Data Breaches
+- Account Takeover
+- System Takeover
+- Unauthorized Modification
+
+Prevention:
+- Strong authorization and authentication
+- Regualr Access Reviews
+- Session management
+
+
+
 
 #### Insecure Direct Object reference
 It is a specific type of Broken Access Control vulnerability. It occurs when an application uses user-supplied input to directly access object without proper authorization checks. This allows attackers to manipulates references and gain unauthorized access to resourse. Impacts of IDOR are Data Breaches and Unauthorized Actions. 
@@ -218,7 +231,7 @@ Prevention:
 - Regular Security Audits: conduct security conduct audits to identify and address weaknesses in authentication mechanisms.
 
 ## 8. Software and Data Integrity failures
-Software and Data Integrity failures arise when an application's code or insfrastructure lacks the proper safegurads to prevent unauthorized modifications of data. This can have severe consequences as the attackers can manipulates data to gain unauthorizes access, steal sensitive information or disrupt critical systems. It occur due Insufficient data validation, missing integrity checks, and weak coding singing practices. Insufficient data validation is when a application does not have proper user-supplied data  which allows attacker to inject malicious code or manipulate data to pypass security controls. Software and Data Integrity failures can occur due to unsecure data stroage, sensitive data might be stored in an unencrypted format or without proper access controls, making it vulnerable to unauthorized modification.
+It arise when an application's code or insfrastructure lacks the proper safegurads to prevent unauthorized modifications of data. This can have severe consequences as attackers can manipulate data to gain unauthorized access, steal sensitive information or disrupt critical systems. It occur due Insufficient data validation, missing integrity checks, and weak coding singing practices. Insufficient data validation is when a application does not have proper user-supplied data  which allows attacker to inject malicious code or manipulate data to pypass security controls. Software and Data Integrity failures can occur due to unsecure data stroage, sensitive data might be stored in an unencrypted format or without proper access controls, making it vulnerable to unauthorized modification.
 
 ![alt text](<../images/SWS101-images/OWASP _Top_10/Screenshot from 2024-04-05 05-47-46.png>)
 
@@ -235,3 +248,40 @@ Prevention:
 - Strong code signing: Implement this to verify the authencity and integrity of software updates.
 
 
+## 9. Security Logging and Monitoring Failures
+This describes the scenario where an organization neglects to properly record(logs) and oversee security incidents within their system and application. This lack of visibility makes it difficult to detect suspicious activity, investigate security incidents and take timely action to mitigate threats. Causes of Security Logging and Monitoring Failures is insufficient logging, lack of log monitoring and unsecure ligs. When security logs are not adequately protected from unauthorized access  this could allow attackers to delete or modify logs to cover their tracks. Even if the logs are generated, developers might not monitore it on a regular basis so this allows attackers to operate undetected for extented periods.
+
+![alt text](<../images/SWS101-images/OWASP _Top_10/Screenshot from 2024-04-05 11-27-26.png>)
+
+Consequences
+- Delayed Dectection of Attacks: without a proper logging and monitoring, security incidents might go unnoticed for a long time, allowing attackers to do further damages.
+- Limited forensic Ananlysis: security logs are crucial for forensic analysis after a security incidents. Without them, it is difficult to indentify the root cause of the issues and prevent similar attacks in the future.
+
+
+Prevention
+- Implement Centralized Logging: collect logs from all relevant systems and application into a central repository for easier monitoring and analysis.
+- Secure logs: store logs securely and provide access to authorized personnel only.
+- Regualar Log Review: dedicate rescources to review logs on a regular basis and investage any potential security incidents proptly.
+- Focus on Log Content: Ensure logs capture detailed information about events, including timestamps, usernames, IP addresses, actions performed, and any relevant data involved.
+
+
+## 10. Server-Side Request Forgery(SSRF)
+SSRF is web security vulnerability that attackers can exploit to trick a web server into making unauthorized requests to an external server. An SSRF vulnerability is like a malicious party forging a request in your name, instructing the assistant to perform unauthorized actions. SSRF  occurs due to malicious input and exploiting the vulnerability.
+
+![alt text](<../images/SWS101-images/OWASP _Top_10/Screenshot from 2024-04-05 11-43-59.png>)
+
+Consequences:
+- Internal network Attacks: attackers can exploit SSRF to pivot their attacks within the organization's internal network, targeting resources that wouldn't be accessible from the internet.
+- Data Breaches
+- System Takeover
+- Denial-of-Service (DoS) Attacks: Attackers can use SSRF to launch DoS attacks by causing the server to overload itself by making excessive requests to external resources.
+
+Prevention:
+- Input validation
+- keep Software Updated
+- Restrict Allowed URLs:
+Whitelist only authorized URLs that the application should be allowed to fetch data from.
+- Sandboxing untrusted Requests: If external requests are necessary, implement sandboxing mechanisms to restrict the resources and actions the fetched data can perform.
+
+## Overview all the vulnerabilities
+To make it short, by understanding these vulnerabilities and implementing recommended security measures, organization can significantly improve their overall security posture and protect their systems, data and users from vast array of cyberattacks.
