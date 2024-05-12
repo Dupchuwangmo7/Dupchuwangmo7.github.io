@@ -51,3 +51,6 @@ Benefits of the Traffic Analysis:
 - Provides full network visibility.
 - Helps comprehensive baselining for asset tracking.
 - Helps to detect/respond to anomalies and threats.
+
+#### TAsk 4
+This room ia all about Network Security Operations and Network Traffic Analysis. Effective network security operations and network traffic analysis play a critical role in maintaining the security and integrity of enterprise networks, protecting sensitive data, and ensuring business continuity in the face of evolving cyber threats and attacks.
