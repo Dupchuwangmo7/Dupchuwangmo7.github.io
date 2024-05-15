@@ -6,7 +6,8 @@ tags: [DBS101]
 
 # Indexing
 
-## Indexing of Spatial and Temporal Data 
+## Indexing of Spatial and Temporal Data
+
 Indexing spatial and temporal data is a vital tool for managing information with a physical location and a time dimension.
 
 It is used in
@@ -38,6 +39,7 @@ Bitmap indices are appropriate for several scenarios;
 - Data warehouses: in this event, the database is read-only, but the amount of data acquired is enormous. Bitmap indices are beneficial in this situation as they are built for retrieval.
 
 Below are the types of bitmap indices;
+
 - improving query performance: such columns are involved in a large number of selections, e.g., gender or region.
 
 One limitation, however, can be frequent updates in the stateful databases since it is resource-consuming to maintain the bitmaps for each update.
@@ -58,6 +60,6 @@ Addvantages
 - Batch processing : Buffer trees excel at handling batched operations on the data.
 - Flexibility : Buffer trees can be used to implement various external data structures like priority queues and range trees
 
-# During Flipped Class
+# What we did during Flipped Class
 
 This flipped class was far better than other flipped classes we had. We were divided into 6 groups but grouping was done uniquely where each student was assigned with a song lyrics and students had to find group members by singing those lyrics. After group division, we had to discuss the given topic. After 30 minutes of discussion, 3 groups were combined into one forming two different groups. Each group had to present their topics to other members and after that we did quizzes on the topics we discuss on.
