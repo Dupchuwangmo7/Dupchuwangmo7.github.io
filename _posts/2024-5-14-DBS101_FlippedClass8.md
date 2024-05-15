@@ -6,7 +6,8 @@ tags: [DBS101]
 
 # Indexing
 
-Indexing of Spatial and Temporal Data - Indexing spatial and temporal data is a vital tool for managing information with a physical location and a time dimension.
+## Indexing of Spatial and Temporal Data 
+Indexing spatial and temporal data is a vital tool for managing information with a physical location and a time dimension.
 
 It is used in
 
@@ -15,9 +16,10 @@ It is used in
 - Environmental monitoring
 - Asset tracking and management
 - GPS- and sensor-based data
-- Sensor networks, among others.
+- Sensor networks.
 
 Why it matters?
+
 Imagine you have a giant dataset that shows where and when every single Uber ride occurred in a city. If you wanted to search this data to find a specific ride, every search would take forever if you had to go through all of the data one entry at a time. Instead, you can build indexes that act like a shortcut on top of our data. These indexes, which are built with a specific goal in mind, arrange our data based on the physical location and time for high-speed access into particular data.
 
 Common Indexing Techniques
