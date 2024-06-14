@@ -30,3 +30,24 @@ There is another text file on the ftp server: locks.txt. It has the following co
 ![alt text](<../images/SWS101-images/CTF Journals/Journal1/Screenshot from 2024-06-09 22-34-14.png>)
 
 Answer : ssh
+
+Q. What is the users password? 
+
+Answer: RedDr4gonSynd1cat3
+
+Q. user.txt
+
+command :  ssh lin@10.10.5.226
+
+Password : RedDr4gonSynd1cat3
+
+![alt text](<../images/SWS101-images/CTF Journals/Journal1/Screenshot from 2024-06-10 16-59-27.png>)
+
+![alt text](<../images/SWS101-images/CTF Journals/Journal1/Screenshot from 2024-06-10 17-04-41.png>)
+
+We got the user.txt i.e THM{CR1M3_SyNd1C4T3}
+
+
+Q. root.txt
+
+Answer: THM{80UN7Y_h4cK3r}
