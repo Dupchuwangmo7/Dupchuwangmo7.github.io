@@ -22,3 +22,11 @@ And this is our websites.
 ![alt text](<../images/SWS101-images/CTF Journals/Journal2/Screenshot from 2024-06-10 18-44-41.png>)
 
 ![alt text](<../images/SWS101-images/CTF Journals/Journal2/Screenshot from 2024-06-10 18-46-20.png>)
+
+Q. What is the Lucien Flag?
+Answer : THM{TH3_L1BR4R14N}
+
+Q. What is the Death Flag?
+Answer : THM{1M_TH3R3_4_TH3M}
+
+Q. 

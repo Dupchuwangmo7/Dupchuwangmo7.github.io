@@ -40,7 +40,7 @@ Answer : kay
 
 Q.9 What is the final password you obtain?
 
-Answer : 
+Answer : heresareallystrongpasswordthatfollowsthepasswordpolicy$$
 
 git clone https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
 
